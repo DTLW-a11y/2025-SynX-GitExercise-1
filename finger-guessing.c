@@ -9,12 +9,12 @@ int win, lose;
 char checkout()
 {
 	printf("\n当前情况：\n\t胜：%d\n\t负：%d\n\n", win, lose);
-	if(win == 3)
+	if(win == 2)
 	{
 		printf("\n赢！\n");
 		return 'Y';
 	}
-	if(lose == 3)
+	if(lose == 2)
 	{
 		printf("\n输！\n");
 		return 'Y';
